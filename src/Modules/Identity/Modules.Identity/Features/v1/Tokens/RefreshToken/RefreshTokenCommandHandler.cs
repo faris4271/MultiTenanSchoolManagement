@@ -36,7 +36,7 @@ public sealed class RefreshTokenCommandHandler
         CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(request);
-
+         
         var clientId = _requestContext.ClientId;
 
         // Validate refresh token and rebuild subject + claims

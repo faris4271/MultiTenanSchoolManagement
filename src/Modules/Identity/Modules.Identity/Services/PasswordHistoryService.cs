@@ -40,7 +40,7 @@ internal sealed class PasswordHistoryService : IPasswordHistoryService
         {
             return false; // Password history check disabled
         }
-
+         
         var recentPasswordHashes = await _db.Set<PasswordHistory>()
             .Where(ph => ph.UserId == userId)
             .OrderByDescending(ph => ph.CreatedAt)

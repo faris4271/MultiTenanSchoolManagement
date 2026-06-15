@@ -31,7 +31,7 @@ internal sealed class UserPermissionService(
                     .Where(r => userRoles.Contains(r.Name!))
                     .ToListAsync(cancellationToken))
                 {
-                    permissions.AddRange(await db.RoleClaims
+                    permissions.AddRange(await db.RoleClaims 
                         .Where(rc => rc.RoleId == role.Id && rc.ClaimType == ClaimConstants.Permission)
                         .Select(rc => rc.ClaimValue!)
                         .ToListAsync(cancellationToken));

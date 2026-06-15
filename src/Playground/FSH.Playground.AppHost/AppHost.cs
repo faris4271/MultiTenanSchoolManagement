@@ -1,7 +1,7 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
 // Postgres container + database
-var postgres = builder.AddPostgres("postgres").WithDataVolume("fsh-postgres-data").AddDatabase("fsh");
+var postgres = builder.AddPostgres("postgres").WithPgAdmin().WithDataVolume("fsh-postgres-data").AddDatabase("fsh");
 
 var redis = builder.AddRedis("redis").WithDataVolume("fsh-redis-data");
 

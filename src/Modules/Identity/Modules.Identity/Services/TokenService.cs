@@ -25,7 +25,7 @@ public sealed class TokenService : ITokenService
     }
 
     public Task<TokenResponse> IssueAsync(
-        string subject,
+       string subject,
         IEnumerable<Claim> claims,
         string? tenant = null,
         CancellationToken ct = default)

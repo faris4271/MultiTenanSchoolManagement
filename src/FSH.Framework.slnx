@@ -13,17 +13,37 @@
     <Project Path="BuildingBlocks/Web/Web.csproj" />
   </Folder>
   <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Academics/">
+    <Project Path="Modules/Academics/Modules.Academics.Contracts/Modules.Academics.Contracts.csproj" />
+    <Project Path="Modules/Academics/Modules.Academics/Modules.Academics.csproj" />
+  </Folder>
+  <Folder Name="/Modules/Administration/">
+    <Project Path="Modules/Administration/Modules.Administration.Contracts/Modules.Administration.Contracts.csproj" />
+    <Project Path="Modules/Administration/Modules.Administration/Modules.Administration.csproj" />
+  </Folder>
   <Folder Name="/Modules/Auditing/">
     <Project Path="Modules/Auditing/Modules.Auditing.Contracts/Modules.Auditing.Contracts.csproj" />
     <Project Path="Modules/Auditing/Modules.Auditing/Modules.Auditing.csproj" Id="2764205b-8725-43a7-b499-67b98959ad50" />
+  </Folder>
+  <Folder Name="/Modules/HumanResources/">
+    <Project Path="Modules/HumanResources/Modules.HumanResources.Contracts/Modules.HumanResources.Contracts.csproj" />
+    <Project Path="Modules/HumanResources/Modules.HumanResources/Modules.HumanResources.csproj" />
   </Folder>
   <Folder Name="/Modules/Identity/">
     <Project Path="Modules/Identity/Modules.Identity.Contracts/Modules.Identity.Contracts.csproj" />
     <Project Path="Modules/Identity/Modules.Identity/Modules.Identity.csproj" Id="ebeb33cd-9cce-41b0-9bbc-43988dae9a46" />
   </Folder>
+  <Folder Name="/Modules/Logistics/">
+    <Project Path="Modules/Logistics/Modules.Logistics.Contracts/Modules.Logistics.Contracts.csproj" />
+    <Project Path="Modules/Logistics/Modules.Logistics/Modules.Logistics.csproj" />
+  </Folder>
   <Folder Name="/Modules/Multitenancy/">
     <Project Path="Modules/Multitenancy/Modules.Multitenancy.Contracts/Modules.Multitenancy.Contracts.csproj" Id="61165a24-94b0-402c-9d9f-345898ce79c4" />
     <Project Path="Modules/Multitenancy/Modules.Multitenancy/Modules.Multitenancy.csproj" Id="69bca64d-0cf5-4236-8da6-1d775aa2a1cc" />
+  </Folder>
+  <Folder Name="/Modules/Student/">
+    <Project Path="Modules/Students/Students.Contracts/Students.Contracts.csproj" />
+    <Project Path="Modules/Students/Students/Students.csproj" />
   </Folder>
   <Folder Name="/Playground/">
     <Project Path="Playground/FSH.Playground.AppHost/FSH.Playground.AppHost.csproj" Id="86bd02ee-f1b5-472c-b5bd-bc607fe084de" />

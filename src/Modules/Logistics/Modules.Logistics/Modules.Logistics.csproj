@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>FSH.Modules.Logistics</RootNamespace>
+		<AssemblyName>FSH.Modules.Logistics</AssemblyName>
+		<PackageId>FullStackHero.Modules.Logistics</PackageId>
+		<NoWarn>$(NoWarn);CA1031;CA1812;CA1062;S3267</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\BuildingBlocks\Persistence\Persistence.csproj" />
+	  <ProjectReference Include="..\..\..\BuildingBlocks\Web\Web.csproj" />
+	  <ProjectReference Include="..\Modules.Logistics.Contracts\Modules.Logistics.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

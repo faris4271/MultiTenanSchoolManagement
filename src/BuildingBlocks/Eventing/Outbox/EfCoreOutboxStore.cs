@@ -54,6 +54,8 @@ public sealed class EfCoreOutboxStore<TDbContext> : IOutboxStore
             .Take(batchSize)
             .ToListAsync(ct)
             .ConfigureAwait(false);
+
+
     }
 
     public async Task MarkAsProcessedAsync(OutboxMessage message, CancellationToken ct = default)

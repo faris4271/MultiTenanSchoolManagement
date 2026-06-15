@@ -1,6 +1,8 @@
 ﻿using FSH.Framework.Web;
 using FSH.Framework.Web.Modules;
+using FSH.Modules.Administration;
 using FSH.Modules.Auditing;
+using FSH.Modules.HumanResources;
 using FSH.Modules.Identity;
 using FSH.Modules.Identity.Contracts.v1.Tokens.TokenGeneration;
 using FSH.Modules.Identity.Features.v1.Tokens.TokenGeneration;
@@ -43,7 +45,10 @@ var moduleAssemblies = new Assembly[]
 {
     typeof(IdentityModule).Assembly,
     typeof(MultitenancyModule).Assembly,
-    typeof(AuditingModule).Assembly
+    typeof(AuditingModule).Assembly,
+    typeof(HumanResourcesModule).Assembly,
+    typeof(AdministrationModule).Assembly,
+    
 };
 
 builder.AddHeroPlatform(o =>

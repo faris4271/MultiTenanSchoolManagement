@@ -142,6 +142,7 @@ public sealed class IdentityService : IIdentityService
     private static void ValidateUserStatus(FshUser user)
     {
         if (!user.IsActive)
+
         {
             throw new UnauthorizedException("user is deactivated");
         }

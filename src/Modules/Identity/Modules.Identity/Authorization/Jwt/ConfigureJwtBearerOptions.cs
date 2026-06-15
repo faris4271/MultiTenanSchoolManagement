@@ -51,9 +51,9 @@ public class ConfigureJwtBearerOptions : IConfigureNamedOptions<JwtBearerOptions
             ValidAudience = _options.Audience,
             ValidateAudience = true,
             RoleClaimType = ClaimTypes.Role,
-            ClockSkew = TimeSpan.FromMinutes(2)
+            ClockSkew = TimeSpan.FromMinutes(2) 
         };
-        options.Events = new JwtBearerEvents
+        options.Events = new JwtBearerEvents 
         {
             OnChallenge = context =>
             {

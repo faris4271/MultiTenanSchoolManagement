@@ -26,9 +26,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\BuildingBlocks\Web\Web.csproj" />
+    <ProjectReference Include="..\..\Modules\Academics\Modules.Academics\Modules.Academics.csproj" />
+    <ProjectReference Include="..\..\Modules\Administration\Modules.Administration\Modules.Administration.csproj" />
     <ProjectReference Include="..\..\Modules\Auditing\Modules.Auditing.Contracts\Modules.Auditing.Contracts.csproj" />
     <ProjectReference Include="..\..\Modules\Auditing\Modules.Auditing\Modules.Auditing.csproj" />
+    <ProjectReference Include="..\..\Modules\HumanResources\Modules.HumanResources\Modules.HumanResources.csproj" />
     <ProjectReference Include="..\..\Modules\Identity\Modules.Identity\Modules.Identity.csproj" />
+    <ProjectReference Include="..\..\Modules\Logistics\Modules.Logistics\Modules.Logistics.csproj" />
     <ProjectReference Include="..\..\Modules\Multitenancy\Modules.Multitenancy\Modules.Multitenancy.csproj" />
     <ProjectReference Include="..\Migrations.PostgreSQL\Migrations.PostgreSQL.csproj" />
   </ItemGroup>
